@@ -1,6 +1,5 @@
 /* global describe, it, browser */
 const expect = require('chai').expect;
-import { shallow } from 'enzyme';
 
 describe('TodoList App', () => {
   it('Should load with the right title', () => {
