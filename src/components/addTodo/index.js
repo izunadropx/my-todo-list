@@ -18,8 +18,8 @@ const AddTodo = ({submitTodo}) => {
         input = element;
     }}
     />
-    }
-/>
+    
+
 
        <button type = "submit" className= "todo-submit">
       Add todo
