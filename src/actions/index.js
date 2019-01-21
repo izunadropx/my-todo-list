@@ -7,11 +7,23 @@ const nextId =() => {
     return todoId;
 };
 
+const removeID =() =>{
+    return null;
+}
+
 const actions ={
     submitTodo(text) {
         return {
         type: types.SUBMIT_TODO,
         id: nextId(),
+        text,
+        };
+    },
+
+    removeSubmitTodo(text){
+        return{
+        type: types.REMOVE_SUBMIT_TODO,
+        id: removeID(),
         text,
         };
     },
